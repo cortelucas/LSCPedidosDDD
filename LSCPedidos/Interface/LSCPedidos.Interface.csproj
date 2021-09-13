@@ -8,4 +8,8 @@
     <Folder Include="Repositories\" />
   </ItemGroup>
 
+  <ItemGroup>
+    <ProjectReference Include="..\LSCPedidos.Domain\LSCPedidos.Domain.csproj" />
+  </ItemGroup>
+
 </Project>

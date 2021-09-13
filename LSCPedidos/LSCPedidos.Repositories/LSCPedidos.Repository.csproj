@@ -4,4 +4,15 @@
     <TargetFramework>net5.0</TargetFramework>
   </PropertyGroup>
 
+  <ItemGroup>
+    <Folder Include="Common\" />
+    <Folder Include="Mappings\" />
+    <Folder Include="Repositories\" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\Interface\LSCPedidos.Interface.csproj" />
+    <ProjectReference Include="..\LSCPedidos.Domain\LSCPedidos.Domain.csproj" />
+  </ItemGroup>
+
 </Project>
