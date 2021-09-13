@@ -7,6 +7,8 @@ Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSCPedidos.Domain", "LSCPed
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Interface", "Interface\Interface.csproj", "{069F383D-FFEA-4A47-A1AF-A255FADBB7BF}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "LSCPedidos.Repositories", "LSCPedidos.Repositories\LSCPedidos.Repositories.csproj", "{6E298BFF-1572-4F6F-BC03-626CAAA8DA9A}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -21,6 +23,10 @@ Global
 		{069F383D-FFEA-4A47-A1AF-A255FADBB7BF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{069F383D-FFEA-4A47-A1AF-A255FADBB7BF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{069F383D-FFEA-4A47-A1AF-A255FADBB7BF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6E298BFF-1572-4F6F-BC03-626CAAA8DA9A}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6E298BFF-1572-4F6F-BC03-626CAAA8DA9A}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6E298BFF-1572-4F6F-BC03-626CAAA8DA9A}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6E298BFF-1572-4F6F-BC03-626CAAA8DA9A}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
